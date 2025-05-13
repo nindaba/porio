@@ -47,7 +47,6 @@ function DisplayLocations() {
             alt="location-reference"
             src={`${photo}`}
             style={{
-              //center the image
               display: 'block',
               margin: '0 auto',
               borderRadius: '10px',
