@@ -1,4 +1,3 @@
-import aichat from '../assets/chat-ai.svg'
 export default function Navbar() {
   return (
     <header>
