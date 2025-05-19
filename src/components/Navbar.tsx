@@ -64,7 +64,6 @@ export default function Navbar() {
               </svg>
             </button>
           </div>
-
           <a href="#" className="text-sm/6 font-semibold">
             Experience
           </a>
