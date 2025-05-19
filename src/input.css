@@ -9,8 +9,8 @@
 }
 
 body {
-  @apply bg-zinc-900;
-  @apply text-zinc-200;
-  @apply dark:bg-zinc-100;
-  @apply dark:text-zinc-900;
+  @apply bg-zinc-100;
+  @apply text-zinc-900;
+  @apply dark:bg-zinc-900;
+  @apply dark:text-zinc-200;
 }

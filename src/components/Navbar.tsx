@@ -1,3 +1,4 @@
+import aichat from '../assets/chat-ai.svg'
 export default function Navbar() {
   return (
     <header>
@@ -8,11 +9,6 @@ export default function Navbar() {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img
-              className="h-8 w-auto"
-              src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-              alt=""
-            />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -60,16 +56,11 @@ export default function Navbar() {
                 />
               </svg>
             </button>
-            {/* <!-- */}
-            {/*   'Product' flyout menu, show/hide based on flyout menu state. */}
-            {/**/}
-            {/*   Entering: "transition ease-out duration-200" */}
-            {/*     From: "opacity-0 translate-y-1" */}
-            {/*     To: "opacity-100 translate-y-0" */}
-            {/*   Leaving: "transition ease-in duration-150" */}
-            {/*     From: "opacity-100 translate-y-0" */}
-            {/*     To: "opacity-0 translate-y-1" */}
-            {/* --> */}
+            'Product' flyout menu, show/hide based on flyout menu state.
+            Entering: "transition ease-out duration-200" From: "opacity-0
+            translate-y-1" To: "opacity-100 translate-y-0" Leaving: "transition
+            ease-in duration-150" From: "opacity-100 translate-y-0" To:
+            "opacity-0 translate-y-1"
             <div className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
               <div className="p-4">
                 <div className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50">
@@ -277,19 +268,12 @@ export default function Navbar() {
           </a>
         </div>
       </nav>
-      {/* <!-- Mobile menu, show/hide based on menu open state. --> */}
       <div className="lg:hidden" role="dialog" aria-modal="true">
-        {/* <!-- Background backdrop, show/hide based on slide-over state. --> */}
         <div className="fixed inset-0 z-10"></div>
         <div className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
-                className="h-8 w-auto"
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
-              />
             </a>
             <button
               type="button"
@@ -323,12 +307,8 @@ export default function Navbar() {
                     aria-controls="disclosure-1"
                     aria-expanded="false"
                   >
-                    Product
-                    {/* <!-- */}
-                    {/*   Expand/collapse icon, toggle classNamees based on menu open state. */}
-                    {/**/}
-                    {/*   Open: "rotate-180", Closed: "" */}
-                    {/* --> */}
+                    Product Expand/collapse icon, toggle classNamees based on
+                    menu open state. Open: "rotate-180", Closed: ""
                     <svg
                       className="size-5 flex-none"
                       viewBox="0 0 20 20"
@@ -343,7 +323,6 @@ export default function Navbar() {
                       />
                     </svg>
                   </button>
-                  {/* <!-- 'Product' sub-menu, show/hide based on menu state. --> */}
                   <div className="mt-2 space-y-2" id="disclosure-1">
                     <a
                       href="#"
