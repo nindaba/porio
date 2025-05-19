@@ -1,3 +1,4 @@
+const rout = '/experience'
 export default function Navbar() {
   return (
     <header>
@@ -6,7 +7,7 @@ export default function Navbar() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href={rout} className="-m-1.5 p-1.5">
             <h1 className="text-2xl font-bold tracking-tight">
               Arthur Nindaba
             </h1>
@@ -63,16 +64,16 @@ export default function Navbar() {
               </svg>
             </button>
           </div>
-          <a href="#" className="text-sm/6 font-semibold">
+          <a href={rout} className="text-sm/6 font-semibold">
             Experience
           </a>
-          <a href="#" className="text-sm/6 font-semibold">
+          <a href={rout} className="text-sm/6 font-semibold">
             Skills
           </a>
-          <a href="#" className="text-sm/6 font-semibold">
+          <a href={rout} className="text-sm/6 font-semibold">
             About
           </a>
-          <a href="#" className="flex items-center text-sm/6 font-semibold">
+          <a href={rout} className="flex items-center text-sm/6 font-semibold">
             <span className="sr-only">Download Cv</span>
             <svg
               className="size-4 stroke-zinc-900 dark:stroke-zinc-200"
@@ -92,7 +93,7 @@ export default function Navbar() {
           </a>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm/6 font-semibold">
+          <a href={rout} className="text-sm/6 font-semibold">
             Log in <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
@@ -103,7 +104,7 @@ export default function Navbar() {
         <div className="fixed inset-0 z-10"></div>
         <div className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-zinc-200 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 dark:bg-zinc-900">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href={rout} className="-m-1.5 p-1.5">
               <h1 className="text-2xl font-bold tracking-tight">
                 Arthur Nindaba
               </h1>
@@ -140,7 +141,7 @@ export default function Navbar() {
               <div className="space-y-2 py-6">
                 <div className="-mx-3"></div>
                 <a
-                  href="#"
+                  href={rout}
                   className="-mx-3 flex items-center gap-2 rounded-lg px-3 py-2 text-base/7 font-semibold"
                 >
                   <svg
@@ -160,25 +161,25 @@ export default function Navbar() {
                   <span className="inline-block">ChatCV</span>
                 </a>
                 <a
-                  href="#"
+                  href={rout}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold"
                 >
                   Experience
                 </a>
                 <a
-                  href="#"
+                  href={rout}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold"
                 >
                   Skills
                 </a>
                 <a
-                  href="#"
+                  href={rout}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold"
                 >
                   About
                 </a>
                 <a
-                  href="#"
+                  href={rout}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold"
                 >
                   <svg
@@ -201,7 +202,7 @@ export default function Navbar() {
               </div>
               <div className="py-6">
                 <a
-                  href="#"
+                  href={rout}
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold"
                 >
                   Log in
