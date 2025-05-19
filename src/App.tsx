@@ -1,10 +1,4 @@
-import {
-  ApolloClient,
-  ApolloProvider,
-  gql,
-  InMemoryCache,
-  useQuery,
-} from '@apollo/client'
+import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client'
 import Navbar from './components/Navbar'
 import ExperiencePage from './pages/ExperiencePage'
 
